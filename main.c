@@ -1,17 +1,6 @@
 #include <stdio.h>
 #include "ordenacao.h"
 
-void mostra_balde(int b, int balde[], int tam) {
-    if (tam == 0) {
-        return;
-    }
-    printf("%d a %d:", b * 10, b * 10 + 9);
-    for (int i = 0; i < tam; i++) {
-        printf(" %d", balde[i]);
-    }
-    printf("\n");
-}
-
 int main() {
     int n;
     int v[MAX_IDADES];
